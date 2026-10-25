@@ -143,12 +143,12 @@ function makeChatKuSocket(config = {}) {
       case 'link_code': {
         const code = f.code.slice(0, 4) + '-' + f.code.slice(4)
         const qr = 'chatku://link/' + f.sid
-        update({ qr, pairingCode: code, qrExpiresIn: Math.max(0, Math.round((f.exp - Date.now()) / 1000)) })
         if (printQRInTerminal) {
           try {
             require('qrcode-terminal').generate(qr, { small: true })
           } catch {}
         }
+        update({ qr, pairingCode: code, qrExpiresIn: Math.max(0, Math.round((f.exp - Date.now()) / 1000)) })
         break
       }
       case 'link_done':

@@ -1,11 +1,12 @@
 {
   "name": "chatku-bot",
-  "version": "0.1.2",
-  "description": "SDK bot ChatKu bergaya Baileys: tautkan perangkat via QR atau kode, terima dan kirim pesan lewat WebSocket.",
+  "version": "0.1.3",
+  "description": "SDK dan bot dasar ChatKu bergaya Baileys: npm install lalu npm start, tautkan lewat QR atau kode, kembangkan bot sendiri.",
   "main": "src/index.js",
   "scripts": {
-    "example": "node example/bot.js",
-    "test": "node test/run.js"
+    "start": "node index.js",
+    "test": "node test/handler.test.js",
+    "test:integration": "node test/integration.js"
   },
   "engines": {
     "node": ">=18"
@@ -25,8 +26,6 @@
   ],
   "files": [
     "src",
-    "example",
-    "starter",
     "README.md",
     "LICENSE"
   ],

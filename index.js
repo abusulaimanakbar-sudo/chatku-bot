@@ -1,5 +1,5 @@
-const makeChatKuSocket = require('chatku-bot')
-const { useMultiFileAuthState, DisconnectReason } = require('chatku-bot')
+const makeChatKuSocket = require('./src')
+const { useMultiFileAuthState, DisconnectReason } = require('./src')
 const { createHandler } = require('./lib/handler')
 
 // Alamat server: opsi `url`, atau variabel lingkungan CHATKU_URL. Kosong = bawaan SDK.
