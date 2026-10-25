@@ -1,0 +1,33 @@
+{
+  "name": "chatku-bot",
+  "version": "0.1.0",
+  "description": "SDK bot ChatKu bergaya Baileys: tautkan perangkat via QR atau kode, terima dan kirim pesan lewat WebSocket.",
+  "main": "src/index.js",
+  "scripts": {
+    "example": "node example/bot.js",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "ws": "^8.18.0"
+  },
+  "keywords": [
+    "chatku",
+    "bot",
+    "whatsapp-like",
+    "baileys",
+    "websocket",
+    "sdk"
+  ],
+  "files": [
+    "src",
+    "example",
+    "README.md",
+    "LICENSE"
+  ],
+  "author": "RAFFX STUDIOS"
+}
