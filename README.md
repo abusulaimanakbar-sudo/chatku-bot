@@ -8,7 +8,7 @@ Pasang di proyek bot kamu:
 npm install chatku-bot
 ```
 
-Mau langsung jalan? Salin folder `starter/` (sudah memuat `chatku-bot` di dependencies), lalu `npm install && npm start`.
+Mau langsung jalan? Salin folder `starter/` (ada di repositori dan di dalam paket npm, di `node_modules/chatku-bot/starter`). Isinya 12 perintah contoh dan sistem perintah yang mudah ditambah; lihat README di dalamnya.
 
 Atau jalankan contoh dari repositori ini:
 
