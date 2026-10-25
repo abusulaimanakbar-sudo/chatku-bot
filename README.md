@@ -8,6 +8,8 @@ Pasang di proyek bot kamu:
 npm install chatku-bot
 ```
 
+Mau langsung jalan? Salin folder `starter/` (sudah memuat `chatku-bot` di dependencies), lalu `npm install && npm start`.
+
 Atau jalankan contoh dari repositori ini:
 
 ```bash
