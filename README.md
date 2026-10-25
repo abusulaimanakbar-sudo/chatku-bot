@@ -2,6 +2,14 @@
 
 SDK bot ChatKu bergaya Baileys. Bot menautkan diri sebagai **perangkat tertaut** lewat QR atau kode, lalu menerima dan mengirim pesan atas nama akun pemiliknya.
 
+Pasang di proyek bot kamu:
+
+```bash
+npm install chatku-bot
+```
+
+Atau jalankan contoh dari repositori ini:
+
 ```bash
 npm install
 node example/bot.js      # tampil QR + kode; setujui di ChatKu > Setelan > Perangkat tertaut
