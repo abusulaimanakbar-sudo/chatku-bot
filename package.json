@@ -29,5 +29,13 @@
     "README.md",
     "LICENSE"
   ],
-  "author": "RAFFX STUDIOS"
+  "author": "RAFFX STUDIOS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abusulaimanakbar-sudo/chatku-bot.git"
+  },
+  "homepage": "https://github.com/abusulaimanakbar-sudo/chatku-bot#readme",
+  "bugs": {
+    "url": "https://github.com/abusulaimanakbar-sudo/chatku-bot/issues"
+  }
 }
